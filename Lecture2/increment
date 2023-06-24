@@ -1,1 +1,28 @@
 
+#include<iostream>
+using namespace std;
+
+// pass by val
+// void increment (int a){
+//     a++;
+//     return ;
+// }
+
+void increment (int *a){
+   //(*a)++;
+   // int &b=
+   a++;
+     return ;
+ }
+ // -> Address;
+ // int i;
+ // cout<< &i
+ // int &j =
+int main(){
+    int i = 11;
+    int j =i;
+    j++;
+   // increment (&i);
+    cout<<i<<endl;
+    return 0;
+}
